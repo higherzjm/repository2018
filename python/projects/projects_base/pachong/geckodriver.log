@@ -1,0 +1,103 @@
+1512382976215	geckodriver	INFO	geckodriver 0.19.1
+1512382976338	geckodriver	INFO	Listening on 127.0.0.1:63068
+1512382977435	mozrunner::runner	INFO	Running command: "D:\\Program Files\\browse\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zjm\\AppData\\Local\\Temp\\rust_mozprofile.DuqO4EF9y9Dj"
+1512383045969	geckodriver	INFO	geckodriver 0.19.1
+1512383046268	geckodriver	INFO	Listening on 127.0.0.1:63166
+1512383048440	mozrunner::runner	INFO	Running command: "D:\\Program Files\\browse\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zjm\\AppData\\Local\\Temp\\rust_mozprofile.HnltYjUcf2cf"
+1512383074412	Marionette	INFO	Enabled via --marionette
+[32260, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[32260, Chrome_ChildThread] WARNING: Unable to create pipe named "41388.6.763429954\1185919381" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+[68192, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[68192, Chrome_ChildThread] WARNING: Unable to create pipe named "41388.0.1266914759\1160827061" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFFB,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x24006F,name=PContent::Msg_InitCrashReporter) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240079,name=PContent::Msg_PPrintingConstructor) Closed channel: cannot send/recv
+
+IPDL protocol error: constructor for actor failed
+[Child 68192, Main Thread] ###!!! ABORT: IPDL error [PContentChild]: "constructor for actor failed". abort()ing as a result.: file z:/build/build/src/ipc/glue/ProtocolUtils.cpp, line 306
+[67800, Chrome_ChildThread] WARNING: failed to cre1512383092484	geckodriver	INFO	Listening on 127.0.0.1:63277
+1512383094808	mozrunner::runner	INFO	Running command: "D:\\Program Files\\browse\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zjm\\AppData\\Local\\Temp\\rust_mozprofile.9iaUQXEmdP5m"
+1512383110429	Marionette	INFO	Enabled via --marionette
+[1372, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[1372, Chrome_ChildThread] WARNING: Unable to create pipe named "68428.0.476792850\555387387" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+[35700, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[35700, Chrome_ChildThread] WARNING: Unable to create pipe named "68428.6.701464681\1772188109" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+[44132, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[44132, Chrome_ChildThread] WARNING: Unable to create pipe named "68428.12.335700551\963334764" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+1512383172465	Marionette	INFO	Listening on port 63293
+Unable to read VR Path Registry from C:\Users\zjm\AppData\Local\openvr\openvrpaths.vrpath
+1512383290931	geckodriver	INFO	geckodriver 0.19.1
+1512383291071	geckodriver	INFO	Listening on 127.0.0.1:63707
+1512383291697	mozrunner::runner	INFO	Running command: "D:\\Program Files\\browse\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zjm\\AppData\\Local\\Temp\\rust_mozprofile.mbnPdMvQE1ww"
+1512383297283	Marionette	INFO	Enabled via --marionette
+[42144, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[42144, Chrome_ChildThread] WARNING: Unable to create pipe named "11380.0.832114950\970137664" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFFB,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x24006F,name=PContent::Msg_InitCrashReporter) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240079,name=PContent::Msg_PPrintingConstructor) Closed channel: cannot send/recv
+
+IPDL protocol error: constructor for actor failed
+[Child 42144, Main Thread] ###!!! ABORT: IPDL error [PContentChild]: "constructor for actor failed". abort()ing as a result.: file z:/build/build/src/ipc/glue/ProtocolUtils.cpp, line 306
+[70248, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[70248, Chrome_ChildThread] WARNING: Unable to create pipe named "11380.12.1977866615\1901728161" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+[6932, Chrome_ChildThread] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[6932, Chrome_ChildThread] WARNING: Unable to create pipe named "11380.6.71460400\832543017" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFFB,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x24006F,name=PContent::Msg_InitCrashReporter) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240079,name=PContent::Msg_PPrintingConstructor) Closed channel: cannot send/recv
+
+IPDL protocol error: constructor for actor failed
+[Child 6932, Main Thread] ###!!! ABORT: IPDL error [PContentChild]: "constructor for actor failed". abort()ing as a result.: file z:/build/build/src/ipc/glue/ProtocolUtils.cpp, line 306
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF8,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFFB,name=???) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x24006F,name=PContent::Msg_InitCrashReporter) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240079,name=PContent::Msg_PPrintingConstructor) Closed channel: cannot send/recv
+
+IPDL protocol error: constructor for actor failed
+[Child 70248, Main Thread] ###!!! ABORT: IPDL error [PContentChild]: "constructor for actor failed". abort()ing as a result.: file z:/build/build/src/ipc/glue/ProtocolUtils.cpp, line 306
+1512383327748	Marionette	INFO	Listening on port 63713
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\zjm\AppData\Local\openvr\openvrpaths.vrpath
