@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Spring MVC and Velocity</title>
+    <style type="text/css">
+        table td{
+            border: 1px rebeccapurple solid;
+        }
+    </style>
+</head>
+<body style="text-align: left;margin-top: 30px">
+<h1>Spring MVC and Velocity table</h1>
+    #set($shoolName="福建师范大学福清分校")
+<table style="text-align: center;border: 1px blue solid;height: auto;width: 500px;">
+    <tr>
+        <td colspan="3" style="color: red">$shoolName$title</td>
+    </tr>
+    <tr>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>居住地址</td>
+    </tr>
+    #foreach($user in $userList)
+        <tr>
+            <td>$user.name </td>
+            <td>$user.sex (#if($user.sex=='男') man #elseif($user.sex=='女')  woman #else unknow
+            #end)</td>
+            <td>$user.address</td>
+        </tr>
+    #end
+</table>
+
+</body>
+</html>

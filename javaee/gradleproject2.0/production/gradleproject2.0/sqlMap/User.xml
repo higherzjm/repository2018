@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" 
+"http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="User">
+<resultMap id="result" class="com.j2ee.spring.springmvc_ibatis.model.User">
+   <result property="id" column="id"></result>
+   <result property="uname" column="uname"></result>
+   <result property="upwd" column="upwd"></result>
+</resultMap>
+<!--	根据ID删除一个用户-->
+	<delete id="deleteUserByID" parameterClass="int">
+		delete from t_user where id=#id#
+	</delete>
+
+<!--修改一个用户-->
+	<update id="updateUserByUser" parameterClass="com.j2ee.spring.springmvc_ibatis.model.User">
+		update t_user set uname=#uname#,upwd=#upwd# where id=#id#
+	</update>
+
+<!--插入一个用户-->
+     <insert id="insertUser" parameterClass="com.j2ee.spring.springmvc_ibatis.model.User">
+         insert into  t_user(id,uname, upwd) VALUES (#id#,#uname#, #upwd#)
+     </insert>
+
+<!--根据ID查询-->
+	<select id="findUserByID" parameterClass="int" resultMap="result">
+		select * from t_user where id=#id#
+	</select>
+<!--根据用户名和密码 查询-->
+    <select id="selectByUnameAndUpwd" parameterClass="com.j2ee.spring.springmvc_ibatis.model.User" resultMap="result">
+        select * from t_user where uname=#uname# and upwd=#upwd#
+    </select>
+<!--查询全部-->
+	<select id="findAllUser"  resultClass="com.j2ee.spring.springmvc_ibatis.model.User">
+		select * from t_user
+	</select>
+<!--分页查询部分 -->
+    <select id="findAllUserCount" resultClass="int">
+        select count(*) from t_user
+    </select>
+    <select id="findPageUser" parameterClass="int" resultMap="result">
+        select * from t_user
+    </select>
+</sqlMap>
